@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+@media (max-width: 450px) {
+    body { background-color: aqua;}
+    .parent {
+        justify-content: flex-start;
+        align-items: flex-start;        
+    }
+    .check_Out {
+        justify-content: flex-start;
+        align-items:flex-start ;
+    }
+
+}
+
+@media (min-width: 450px) and (max-width:900px){
+    body { background-color: blueviolet;}
+
+}
+
+
+@media (min-width: 450px) and (max-width:900px){
+    body { background-color: rgb(102, 235, 97);}
+
+}
+
+
+@media (min-width: 900px) and (max-width:1200px){
+    body { background-color: rgb(249, 5, 78);}
+
+}
+
+nav {
+    height: 60px;
+    background-color: plum;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px; 
+    position: fixed;
+    width: 99%;
+
+}
+
+.catagories {
+    margin: 0px 12px;
+    cursor: pointer;
+}
+
+.catagories:hover {
+    transition: ease-in-out;
+    transition-duration: 3s;
+    text-decoration: underline;
+}
+span>i {
+    font-size: 25px;
+    color: ghostwhite;
+    margin-right: 5px;
+}
+
+
+i {
+    color: ghostwhite;
+}
+nav>div>img {
+    height: 40px;
+    width: 40px;
+}
+nav>span {
+    font-size: 25px;
+    color: ghostwhite;
+}
+.header {
+    width: 100%;
+    height: 600px;
+}
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-shadow: blue;
+}
+.parent{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.items {
+    display: contents;
+    justify-content: space-between;
+    align-items: center;
+}
+.box {
+    width: 300px;
+    height: 375px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 3px 5px gray;
+    cursor: pointer;  
+}
+
+.box:hover {
+    background-color: gray;
+    opacity: 0.5px;
+   }
+
+
+.box_img{
+    height: 250px;
+    width: 300px;
+    border-radius: 5px;
+    border: solid blue;
+}
+.box_title{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+.box_desc{
+    display: block;
+    font-size: 12px;
+}
+.box>div{
+    padding: 10px;
+}
+.check_Out{
+    height: 40px;
+    width: 40px;
+    background-color: plum;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: fixed;
+    right: 0px;
+}
+
+.check_Out:hover {
+    background-color: gray;
+    opacity: 0.5px;
+    cursor: pointer;
+}
+.box_price{
+    background-color: plum;
+    color: black;
+    margin: 3px;
+    padding: 3px 12px;
+    position: absolute;
+    top: 16px;
+    border-radius: 3px;
+    box-shadow: 2px 2px white;
+}
