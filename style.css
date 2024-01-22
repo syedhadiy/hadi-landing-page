@@ -46,6 +46,17 @@ nav {
 
 }
 
+label > input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
 .catagories {
     margin: 0px 12px;
     cursor: pointer;
